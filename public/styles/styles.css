@@ -5,6 +5,7 @@
 4. Visuales (shadow box, radious)
 5. Otros 
 */
+
 :root {
   /* Colors */
   --bitcoin-orange: #F7931A;
@@ -19,6 +20,9 @@
 
 
 }
+
+/* Global styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -30,6 +34,8 @@ html {
   font-size: 62.5%;
   font-family: 'DM Sans', sans-serif;
 }
+
+/* header styles */
 
 header {
   position: relative;
@@ -107,6 +113,8 @@ header img {
   background-image: url('../../assets/icons/down-icon.png');
 }
 
+/* main styles  */
+
 main {
   width: 100%;
   height: auto;
@@ -164,11 +172,15 @@ main {
   font-family: 'Inter', sans-serif;
 }
 
+
+/* Table styles */
 .main-currency-table .currency-table--title{
   margin-bottom: 15px;
   font-size: 1.8rem;
   line-height: 2.3rem;
-  color: var(--bitcoin-orange)
+  color: var(--bitcoin-orange);
+  text-align: left;
+  margin-left: 10px;
 }
 
 .currency-table-container {
@@ -191,4 +203,60 @@ main {
   line-height: 1.9rem;
   color: var(--grey);
   background-color: var(--just-white);
+}
+
+.currency-table-container .table__top-left {
+  border-radius: 15px 0 0  0 ;
+}
+
+.currency-table-container .table__top-right {
+  border-radius: 0 15px 0 0;
+}
+
+.currency-table-container .table__bottom-left {
+  border-radius: 0 0 0 15px;
+}
+
+.currency-table-container .table__botom-right {
+  border-radius: 0 0 15px 0;
+}
+
+.currency-table-container .table__right {
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.7rem;
+  color: #757575;
+}
+
+.currency-table-container .table__logo-down {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url('../../assets/icons/row-down-icon.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.currency-table-container .table__logo-up {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-left: 10px;
+  background-image: url('../../assets/icons/row-up-icon.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.currency-table--date {
+  width: 190px;
+  height: 30px;
+  margin: 0 auto;
+  margin-top: 15px;
+  padding: 8px;
+  background-color: var(--soft-orange);
+  border-radius: 8px;
+
 }
