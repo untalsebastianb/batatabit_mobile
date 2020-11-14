@@ -251,12 +251,70 @@ main {
 }
 
 .currency-table--date {
-  width: 190px;
+  width: max-content;
   height: 30px;
   margin: 0 auto;
   margin-top: 15px;
   padding: 8px;
   background-color: var(--soft-orange);
   border-radius: 8px;
+}
 
+.currency-table--date p {
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+/* section card details styles*/
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+
+.product-detail__batata-logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  background-image: url('../../assets/icons/batata-icon.png');
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  /* left: calc(50% - 20px); 20px equivale la mitad del ancho logotipo */
+  top: -12px;
+}
+
+.product-detail__title{
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.product-detail__title h2{
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: var(--just-white)
+}
+
+.product-detail__title p{
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--grey)
+}
+
+/* Card styles */
+.product-cards__detail {
+  
 }
