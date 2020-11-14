@@ -315,6 +315,57 @@ main {
 }
 
 /* Card styles */
+
+
 .product-cards__detail {
-  
+  width: 90%;
+  min-height: 150px;
+  min-width: 288px;
+  max-width: 400px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+/* Icons for cards */
+.icon-card {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.clock {
+  background-image: url('../../assets/icons/clock-icon.png');
+}
+
+.eye {
+  background-image: url('../../assets/icons/eye-icon.png');
+}
+
+.dollar {
+  background-image: url('../../assets/icons/dollar-icon.png');
+}
+
+.circle {
+  background-image: url('../../assets/icons/check-circle-icon.png');
+}
+
+.product-card__title {
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+
+.product-card__body {
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: #808080;
 }
