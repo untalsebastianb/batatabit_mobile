@@ -8,17 +8,15 @@
 
 :root {
   /* Colors */
-  --bitcoin-orange: #F7931A;
-  --soft-orange: #FFE9D5;
-  --secondary-blue: #1A9AF7;
-  --soft-blue: #E7F5FF;
-  --warm-black: #201E1C;  
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #201e1c;
   --black: #282623;
   --grey: grey;
-  --off-white: #FAF8F7;
-  --just-white: #FFFFFF;
-
-
+  --off-white: #faf8f7;
+  --just-white: #ffffff;
 }
 
 /* Global styles */
@@ -32,7 +30,7 @@
 html {
   /*to be able to use rem in font-size 1.6rem = 16px*/
   font-size: 62.5%;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 /* header styles */
@@ -47,7 +45,7 @@ header {
   height: 334px;
   text-align: center;
   align-items: center;
-  background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+  background: linear-gradient(207.8deg, #201e1c 16.69%, #f7931a 100%);
 }
 
 header img {
@@ -96,7 +94,7 @@ header img {
   height: 48px;
   background-color: var(--just-white);
   /* Sombra */
-  box-shadow: 0px 4px 8px rgba(89,73,30, 0.16);
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
   border: none;
   border-radius: 5px;
   font-size: 1.4rem;
@@ -110,7 +108,7 @@ header img {
   width: 13px;
   height: 8px;
   margin-left: 10px;
-  background-image: url('../../assets/icons/down-icon.png');
+  background-image: url("../../assets/icons/down-icon.png");
 }
 
 /* main styles  */
@@ -119,7 +117,6 @@ main {
   width: 100%;
   height: auto;
   background-color: var(--off-white);
-
 }
 
 .main-exchange-container {
@@ -141,18 +138,18 @@ main {
   width: 200px;
   height: 200px;
   margin: 0 auto;
-  background-image: url('../../assets/images/bitcoin.svg');
+  background-image: url("../../assets/images/bitcoin.svg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.exchange--title h2{
+.exchange--title h2 {
   margin-bottom: 30px;
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--black)
+  color: var(--black);
 }
 
 .exchange--title p {
@@ -169,12 +166,11 @@ main {
   max-width: 500px;
   height: 360px;
   margin: 0 auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
-
 /* Table styles */
-.main-currency-table .currency-table--title{
+.main-currency-table .currency-table--title {
   margin-bottom: 15px;
   font-size: 1.8rem;
   line-height: 2.3rem;
@@ -206,7 +202,7 @@ main {
 }
 
 .currency-table-container .table__top-left {
-  border-radius: 15px 0 0  0 ;
+  border-radius: 15px 0 0 0;
 }
 
 .currency-table-container .table__top-right {
@@ -233,7 +229,7 @@ main {
   width: 15px;
   height: 15px;
   margin-left: 10px;
-  background-image: url('../../assets/icons/row-down-icon.png');
+  background-image: url("../../assets/icons/row-down-icon.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -244,7 +240,7 @@ main {
   width: 15px;
   height: 15px;
   margin-left: 10px;
-  background-image: url('../../assets/icons/row-up-icon.png');
+  background-image: url("../../assets/icons/row-up-icon.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -281,7 +277,7 @@ main {
   position: absolute;
   width: 40px;
   height: 25px;
-  background-image: url('../../assets/icons/batata-icon.png');
+  background-image: url("../../assets/icons/batata-icon.png");
   left: 0;
   right: 0;
   margin-left: auto;
@@ -290,7 +286,7 @@ main {
   top: -12px;
 }
 
-.product-detail__title{
+.product-detail__title {
   width: 90%;
   min-width: 288px;
   height: auto;
@@ -299,23 +295,22 @@ main {
   text-align: center;
 }
 
-.product-detail__title h2{
+.product-detail__title h2 {
   margin-bottom: 20px;
   font-size: 2.4rem;
   font-weight: 500;
   line-height: 2.6rem;
-  color: var(--just-white)
+  color: var(--just-white);
 }
 
-.product-detail__title p{
+.product-detail__title p {
   margin-bottom: 20px;
   font-size: 1.4rem;
   line-height: 1.8rem;
-  color: var(--grey)
+  color: var(--grey);
 }
 
 /* Card styles */
-
 
 .product-cards__detail {
   width: 90%;
@@ -340,19 +335,19 @@ main {
 }
 
 .clock {
-  background-image: url('../../assets/icons/clock-icon.png');
+  background-image: url("../../assets/icons/clock-icon.png");
 }
 
 .eye {
-  background-image: url('../../assets/icons/eye-icon.png');
+  background-image: url("../../assets/icons/eye-icon.png");
 }
 
 .dollar {
-  background-image: url('../../assets/icons/dollar-icon.png');
+  background-image: url("../../assets/icons/dollar-icon.png");
 }
 
 .circle {
-  background-image: url('../../assets/icons/check-circle-icon.png');
+  background-image: url("../../assets/icons/check-circle-icon.png");
 }
 
 .product-card__title {
@@ -377,14 +372,14 @@ main {
   width: 100%;
   min-width: 320px;
   height: 50vh;
-  background-image: url('../../assets/images/bitcoinbaby-2x.webp');
+  background-image: url("../../assets/images/bitcoinbaby-2x.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   justify-content: center;
 }
 
-.bitcoin-img-container h2{
+.bitcoin-img-container h2 {
   padding-top: 60px;
   font-size: 2.4rem;
   font-weight: bold;
@@ -427,61 +422,139 @@ main {
 }
 
 /* slider cards styles */
- 
-.card-container{
+
+.cards-container__slider {
+  display: flex;
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
+
+.card-container {
   position: relative;
+  scroll-snap-align: center;
   width: 70%;
   min-width: 230px;
   max-width: 300px;
   height: 250px;
-  margin: 50px auto 0;
+  margin: 50px 20px 0;
   padding: 0 15px;
-  background-color: var(--just-white);
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(89,73,30, 0.16);
- }
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
 
- .card__recomended {
-   position: absolute;
-   width: 120px;
-   height: 31px;
-   left: calc(50% - 60px);
-   top: -15px;
-   font-size: 1.2rem;
-   background-color: var(--bitcoin-orange);
-   border-radius: 8px;
-   color: var(--just-white);
-   padding: 6px;
- }
+.background-white {
+  background-color: var(--just-white)
+}
 
- .card__title {
-   padding-top: 30px;
-   font-size: 1.4rem;
-   font-weight: 500;
-   line-height: 1.8rem;
-   color: black;
- }
+.background-orange {
+  background-color: var(--bitcoin-orange);
+}
 
- .card__price{
+.background-black {
+  background-color: var(--warm-black);
+}
+
+.background-grey {
+  background-color: var(--grey);
+}
+
+.background-blue {
+  background-color: var(--secondary-blue);
+}
+
+.card__top-label {
+  position: absolute;
+  width: 120px;
+  height: 31px;
+  font-weight: bold;
+  left: calc(50% - 60px);
+  top: -15px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  color: var(--just-white);
+  padding: 6px;
+}
+
+.card__title {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+.white-text {
+  color: var(--just-white)
+}
+
+.black-text {
+  color: var(--warm-black)
+}
+
+.grey-text {
+  color: var(--grey);
+}
+
+.card__price {
   position: relative;
   padding: 15px 0;
   font-size: 5.2rem;
   font-weight: bold;
   line-height: 5.3rem;
-  color: black;
- }
+}
 
- .card__price span {
-   position: absolute;
-   top: -7px;
-   right: 70px;
-   left: 0;
-   font-size: 1.2rem;
-   font-weight: 300;
-   padding-bottom: 15px;
- }
+.card__price span {
+  position: absolute;
+  top: -7px;
+  right: 70px;
+  left: 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding-bottom: 15px;
+}
 
- .card__saving {
-   font-size: 1.2rem;
-   color: #757575;
- }
+.card__saving {
+  font-size: 1.2rem;
+}
+
+.card__ca {
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+}
+
+.ca--border-orange {
+  border: 2px solid var(--bitcoin-orange);
+}
+
+.ca--border-grey {
+  border: 2px solid var(--grey);
+}
+
+
+
+.ca--background-white {
+  background-color: #faf8f7;
+}
+.ca--background-black {
+  background-color: rgb(45, 44, 44);
+}
+
+.card__ca span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/icons/arrow-right-icon.png');
+  /* background-position: center;
+  
+  background-repeat: no-repeat; */
+  vertical-align: text-bottom;
+}
+
+
